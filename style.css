@@ -1,0 +1,32 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+main{
+    height:100vh;
+    width:100vw;
+    background-color: aqua;
+}
+.sky{
+    height:30%;
+    width:100%;
+    background-color:aqua;
+}
+.grass{
+    height:30%;
+    width:100%;
+    background-color:rgb(124, 202, 6);
+}
+.road{
+    height:40%;
+    width:100%;
+    background-color: gainsboro;
+    position: relative;
+}
+.stripse{
+    position: absolute;
+    border-top: 5px dashed white;
+    top:50%;
+    width:100%;
+}
